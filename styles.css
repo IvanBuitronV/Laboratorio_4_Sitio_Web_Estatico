@@ -1,0 +1,115 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+}
+
+heard {
+    font-size: 2.5vw;
+    /*Hace que el texto sea proporcional a la pantalla*/
+    display: flex;
+    /*Sirve para facilitar la alineacion y distribucion de elementos*/
+    background: linear-gradient(315deg, rgb(61, 124, 143), rgb(68, 149, 179), rgb(141, 208, 228));
+    padding: 20px;
+    align-items: center;
+    /*Alinea en el eje vertical en el centro*/
+}
+
+img {
+    border-radius: 5%;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+
+a1 {
+    color: black;
+    font-weight: 600;
+}
+
+.menu {
+    list-style: none;
+    display: grid;
+    /*Alineacion automatica*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /*Hace que los bloque se adapten automaticamente*/
+    padding: 0;
+    background: #092327;
+    margin: auto;
+    width: 100vm;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    font-size: 1.5vw;
+
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background-color: rgb(141, 208, 228);
+}
+
+.container {
+    background: rgb(212, 245, 255);
+    padding: 20px;
+    font-size: 2vw;
+}
+
+table {
+    color: black;
+    font-size: 2vw;
+
+    border-collapse: collapse;
+    /*Cambia los margenes de la tabla a una liena sencillas*/
+}
+
+
+th {
+    background: black;
+    color: aliceblue;
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+input {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 2vw;
+    border: rgb(245, 247, 247);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /*aplica un degradado alrededor de los inputs*/
+}
+
+.Formulario {
+    background: rgb(212, 245, 255);
+    padding: 20px;
+    font-size: 1.5vw;       
+}
+.Formulario button {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: rgb(68, 149, 179);
+    padding: 10px;
+    border: none;
+    font-size: 2vw;
+    width: 50%;
+}
+
+.Formulario button:hover {
+    background-color: rgb(141, 208, 228);
+}
